@@ -6,7 +6,7 @@ import AppRouter from "./components/AppRouter";
 import {AuthContext} from "./context";
 
 function App() {
-    const [isAuth, setIsAuth] = useState(false)
+    const [isAuth, setIsAuth] = useState(true)
   return (
       <AuthContext.Provider value={{
           isAuth,
